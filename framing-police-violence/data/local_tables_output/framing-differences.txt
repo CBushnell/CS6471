@@ -1,0 +1,18 @@
+LA vs Phoenix (White Only)
+--unconditioned--
+Age *** & 0.518 & 0.762 & 0.522 \\
+Armed *** & 0.358 & 0.532 & 0.355 \\
+Attack *** & 0.299 & 0.552 & 0.528 \\
+Criminal record  & 0.511 & 0.452 & -0.117 \\
+Fleeing  & 0.223 & 0.250 & 0.064 \\
+Gender ** & 0.580 & 0.710 & 0.273 \\
+Interview  & 0.624 & 0.583 & -0.083 \\
+Legal language  & 0.763 & 0.829 & 0.165 \\
+Mental illness  & 0.113 & 0.099 & -0.045 \\
+Official report *** & 0.617 & 0.893 & 0.670 \\
+Race  & 0.131 & 0.095 & -0.114 \\
+Systemic ** & 0.179 & 0.087 & -0.270 \\
+Unarmed  & 0.018 & 0.032 & 0.087 \\
+Video  & 0.051 & 0.060 & 0.037 \\
+
+
