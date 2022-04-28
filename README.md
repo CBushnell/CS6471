@@ -1,6 +1,6 @@
 # CS 6471 - Team One
 
-To get started, please clone or download this entire repository. We recommend using Google Colab as the runtime environnment for this code.
+To get started, please clone or download this entire repository. We recommend using Google Colab as the runtime environment for this code.
 
 ## Executing Code
 
