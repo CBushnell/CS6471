@@ -39,11 +39,13 @@ python -m spacy download en_core_web_sm
 
 All data is contained in a zip file in the [Drive directory](https://drive.google.com/file/d/12Kg0PS-kx6q1NR-Vwdfj7cM4yb3LrMqE/view?usp=sharing)
 
-1. Download all data and setup repo by running `bash populate_repo.sh`
+_1. Download all data and setup repo by running `bash populate_repo.sh`_
 
-2. Run `python 01_pull_shooting_articles.py` to scrape news articles on police killings
+_2. Run `python 01_pull_shooting_articles.py` to scrape news articles on police killings_
 
-3. Clean the retrieved articles by first switching to `conda activate dragnet` and running `python 03_dragnet_clean.py --input_glob "data/raw/shootings-articles/*/*.html" --output "data/raw/shootings-txt"`
+_^ These steps are no-longer required, as the Police Violence Frame Corpus is already available ^_
+
+4. Clean the retrieved articles by first switching to `conda activate dragnet` and running `python 03_dragnet_clean.py --input_glob "data/raw/shootings-articles/*/*.html" --output "data/raw/shootings-txt"`
 
 4. Return to `conda activate framing-pv` and compile all scraped shooting articles with their political leanings by running `python 04_build_shooting_df.py`
 
